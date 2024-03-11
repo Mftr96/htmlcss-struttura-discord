@@ -26,6 +26,8 @@ nav{
 
 nav div{
     border: dashed 1px black;
+    display: flex;
+    align-items: center;
 }
 
 nav div:first-child, nav :nth-child(3){
@@ -41,7 +43,24 @@ nav div:nth-child(2){
     width: 50%;
 }
 
-nav div {
+/*  END NAV STYLE----------------------------- */
+
+/* PRIMA SECTION STYLE-------------------------- */
+
+section{
+    background-color: blue;
+    width: 100%;
+    height: 40rem;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: center ;
 }
+
+section *{
+    background-color: rgb(255, 192, 245);
+    width: calc(100% - 20rem);
+    height: 30rem;
+    border: dashed 1px black;
+}
+
+/*  FINE PRIMA SECTION STYLE-------------------------------- */
