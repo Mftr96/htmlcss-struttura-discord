@@ -55,6 +55,13 @@ section {
     align-items: center ;
 }
 
+.flex-container{
+    width: 60rem;
+    min-height: 30rem;
+    display: flex;
+    border: dashed 1px black;
+}
+
 .blue *{
     background-color: rgb(255, 192, 245);
     width: calc(100% - 20rem);
@@ -87,14 +94,7 @@ section:nth-child(3) *{
     width: 40%;
 }
 
-.flex-container{
-    width: 60rem;
-    height: 30rem;
-    display: flex;
-    border: dashed 1px black;
 
-
-}
 
 /* FINE SECONDA SEZIONE STYLE------------------------------- */
 
@@ -109,3 +109,57 @@ section:nth-child(3) *{
 }
 
 /* FINE TERZA SEZIONE STYLE---------------------- */
+
+.green-container{
+    background-color: green;
+    width: 100%;
+    height: 35rem;
+}
+
+/*  QUINTA SEZIONE STYLE--------------------------------- */
+
+.dark-grey{
+    background-color: rgb(48, 45, 45);
+
+}
+
+.pinker-container{
+    width: 50%;
+    background-color: rgb(207, 109, 125);
+    border: dashed 1px black;
+
+}
+
+.light-blue-container{
+    background-color: lightblue;
+    width: calc(50% / 4);
+    border: dashed 1px white;
+}
+
+/* FOOTER STYLE------------------------------------------- */
+footer{
+    background-color: rgb(48, 45, 45);
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.aqua{
+    background-color: aqua;
+    width: 60%;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aqua *{
+    background-color: pink;
+    border: dashed 1px black;
+    width: 4rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
