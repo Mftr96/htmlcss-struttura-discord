@@ -3,3 +3,45 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+header{
+    width: 100%;
+    background-color: aqua;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* NAV STYLE------------- */
+
+nav{
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: yellow;
+    border: dashed 1px black;
+    width: 60%;
+}
+
+nav div{
+    border: dashed 1px black;
+}
+
+nav div:first-child, nav :nth-child(3){
+    width: 25%;
+}
+
+nav div:nth-child(3){
+    justify-content: end;  
+}
+
+nav div:nth-child(2){
+    justify-content: center; 
+    width: 50%;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
